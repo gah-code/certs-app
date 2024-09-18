@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Loading from './Loading';
-import Tours from './Tours';
+import Certs from './Certs';
 import certificateData from './data/certificateData'; // Import the data
 
 function App() {
-  const [loading, setLoading] = useState(false); // No need to load data, so set to false
-  const [tours, setTours] = useState(certificateData); // Initialize state with imported data
+  const [loading, setLoading] = useState(false);
+  const [certs, setCerts] = useState(certificateData); // Initialize state with imported data
 
-  const removeTour = (id) => {
-    const newTours = tours.filter((tour) => tour.id !== id);
-    setTours(newTours);
-  };
+  // const removeTour = (id) => {
+  //   const newCerts = certs.filter((cert) => cert.id !== id);
+  //   setCerts(newCerts);
+  // };
 
   if (loading) {
     return (
@@ -20,7 +20,7 @@ function App() {
     );
   }
 
-  if (tours.length === 0) {
+  if (certs.length === 0) {
     return (
       <main>
         <div className='title'>
@@ -28,7 +28,7 @@ function App() {
           <button
             className='btn'
             style={{ marginTop: '2rem' }}
-            onClick={() => setTours(certificateData)} // Reset to initial data when refreshing
+            onClick={() => setCerts(certificateData)} // Reset to initial data when refreshing
           >
             Refresh
           </button>
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <main>
-      <Tours tours={tours} removeTour={removeTour} />
+      <Certs certs={certs} />
     </main>
   );
 }

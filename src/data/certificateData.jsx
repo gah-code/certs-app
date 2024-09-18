@@ -5,7 +5,7 @@ const certificateData = [
     info: 'This Advanced CSS and Sass course offers an in-depth guide to modern and advanced CSS techniques for developers looking to elevate their skills. It covers everything from complex CSS animations, Flexbox, and CSS Grid layouts, to responsive design strategies, CSS architecture, and using Sass for scalable codebases. The course provides hands-on projects to help learners master cutting-edge CSS properties and concepts, ensuring they understand how CSS works behind the scenes. With 28+ hours of content, downloadable resources, and Q&A support, this course is ideal for intermediate developers ready to advance their CSS expertise.',
     image:
       'https://udemy-certificate.s3.amazonaws.com/image/UC-00719bf7-a85a-41f4-8dac-bc4171f02d45.jpg?v=1588540810000',
-    price: '1,995',
+    year: '1,995',
     date: '05/03/2020',
   },
   {
