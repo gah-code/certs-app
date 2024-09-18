@@ -42,7 +42,25 @@ const certificateData = [
     image:
       'https://university.mongodb.com/_next/image?url=https%3A%2F%2Fmitx-old-documents.s3.amazonaws.com%2Fcourse_completion%2Fcertificate%2F366adce3-8537-47be-bf85-8ca264335512.png&w=750&q=75',
     price: '2,595',
-    date: '',
+    date: 'May 18, 2021 ',
+  },
+  {
+    id: 'receAEzz86KzW2gvq',
+    name: 'Crash Course: Build a Full-Stack Web App in a Weekend!',
+    info: "We will set up your coding environment and learn the basics of web development together for free. Starting with HTML for content and CSS for styling and layout, we'll build a web page step by step. Next, we'll use Supabase to create an online database and API, then learn JavaScript fundamentals to make the app interactive. Finally, we'll use React to build the app and deploy it on Netlify, making it shareable with anyone via a URL.",
+    image:
+      'https://udemy-certificate.s3.amazonaws.com/image/UC-b48020d1-9218-4835-8489-e97877a5ed1b.jpg?v=1679109691000',
+    price: '2,595',
+    date: 'March 17, 2023 ',
+  },
+  {
+    id: 'receAEzz86KzW2gvq',
+    name: 'Gatsby.js Tutorial and Projects Course',
+    info: 'Gatsby is a React-based, GraphQL-powered static site generator that combines tools like React, webpack, and GraphQL for an excellent developer experience. It offers advanced features like service workers, code splitting, server-side rendering, and data prefetching to build fast, optimized websites. This course is divided into two parts: a tutorial on Gatsby basics and a hands-on project section for building various web projects. With Gatsby, you can quickly create high-performance websites like e-commerce sites, blogs, and landing pages.',
+    image:
+      'https://udemy-certificate.s3.amazonaws.com/image/UC-dbd3cf43-55ea-4fd4-8cab-7e743274f851.jpg?v=1724913206000',
+    price: '2,595',
+    date: 'Auguest 28, 2024 ',
   },
 ];
 
