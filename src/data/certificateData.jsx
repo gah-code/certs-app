@@ -7,6 +7,7 @@ const certificateData = [
       'https://udemy-certificate.s3.amazonaws.com/image/UC-00719bf7-a85a-41f4-8dac-bc4171f02d45.jpg?v=1588540810000',
     year: '1,995',
     date: '05/03/2020',
+    category: 'CSS',
   },
   {
     id: 'recIwxrvU9HfJR3B4',
@@ -16,6 +17,7 @@ const certificateData = [
       'https://udemy-certificate.s3.amazonaws.com/image/UC-fa5fc484-c165-4a57-b297-97c68641bc22.jpg?v=1630464326000',
     price: '3,895',
     date: '08/31/2021',
+    category: 'React',
   },
   {
     id: 'recJLWcHScdUtI3ny',
@@ -25,6 +27,7 @@ const certificateData = [
       'https://udemy-certificate.s3.amazonaws.com/image/UC-9cfb54a0-a751-453b-8a8a-adfbea0b0bbc.jpg?v=1678259583000',
     price: '2,695',
     date: '03/08/2023',
+    category: 'Design',
   },
   {
     id: 'recK2AOoVhIHPLUwn',
@@ -43,6 +46,7 @@ const certificateData = [
       'https://university.mongodb.com/_next/image?url=https%3A%2F%2Fmitx-old-documents.s3.amazonaws.com%2Fcourse_completion%2Fcertificate%2F366adce3-8537-47be-bf85-8ca264335512.png&w=750&q=75',
     price: '2,595',
     date: 'May 18, 2021 ',
+    category: 'JavaScript',
   },
   {
     id: 'receAEzz86KzW2gvq',
@@ -52,6 +56,7 @@ const certificateData = [
       'https://udemy-certificate.s3.amazonaws.com/image/UC-b48020d1-9218-4835-8489-e97877a5ed1b.jpg?v=1679109691000',
     price: '2,595',
     date: 'March 17, 2023 ',
+    category: 'JavaScript',
   },
   {
     id: 'receAEzz86KzW2gvq',
@@ -61,6 +66,7 @@ const certificateData = [
       'https://udemy-certificate.s3.amazonaws.com/image/UC-dbd3cf43-55ea-4fd4-8cab-7e743274f851.jpg?v=1724913206000',
     price: '2,595',
     date: 'Auguest 28, 2024 ',
+    category: 'JavaScript',
   },
 ];
 

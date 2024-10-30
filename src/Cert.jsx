@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Cert = ({ id, image, info, name, date }) => {
   const [readMore, setReadMore] = useState(false);
   return (
-    <article className='single-cert'>
+    <article key={id} className='single-cert'>
       <img src={image} alt={name} className='img' />
       <span className='cert-price'>{date}</span>
       <div className='cert-info'>
